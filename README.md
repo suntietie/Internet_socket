@@ -4,8 +4,8 @@ Process Communicating - socket programming on easiest computer network: client &
 Virtualbox, Ubuntu, Vyos(Linux Debian), C
 ## Network Structure
 client <-> router <-> server
-
-all of them are accessible to my computer via ssh.
+* Provide DHCP service on internal network where VyOS will act as the default gateway and DNS server.
+* All of them are accessible to my computer via ssh.
 ## Tutorial
 * [Installing VirtualBox](https://medium.com/@codingwithmanny/installing-ubuntu-18-04-on-mac-os-with-virtualbox-ac3b39678602)
 * [Building Internal Network](https://www.brianlinkletter.com/how-to-use-virtualbox-to-emulate-a-network/)
